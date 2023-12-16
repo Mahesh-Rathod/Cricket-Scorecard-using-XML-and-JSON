@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CricketMatch>
+<matchDetails>
+<venue>Wankhede Stadium</venue>
+<date>15/11/2023</date>
+<teams>
+<team name="India">
+<player name="Rohit Sharma"/>
+<player name="Shubman Gill"/>
+<player name="Virat Kohli"/>
+<player name="Shreyas Iyer"/>
+<player name="Kl Rahul"/>
+<player name="Suryakumar Yadav"/>
+<player name="Ravindra Jadeja"/>
+<player name="Jasprit Bumrah"/>
+<player name="Mohammed Shami"/>
+<player name="Kuldeep Yadav"/>
+<player name="Mohammed Siraj"/>
+</team>
+<team name="New Zealand">
+<player name="Devon Conway"/>
+<player name="Rachin Ravindra"/>
+<player name="Kane Williamson (c)"/>
+<player name="Daryl Mitchell"/>
+<player name="Tom Latham (wk)"/>
+<player name="Glenn Phillips"/>
+<player name="Mark Chapman"/>
+<player name="Mitchell Santner"/>
+<player name="Lockie Ferguson"/>
+<player name="Trent Boult"/>
+<player name="Tim Southee"/>
+</team>
+</teams>
+<toss>
+<winningTeam>India</winningTeam>
+<decision>bat/field</decision>
+</toss>
+</matchDetails>
+<innings>
+<inning number="1">
+<battingTeam>India</battingTeam>
+<runsScored>397</runsScored>
+<wicketsLost>4</wicketsLost>
+<oversPlayed>50</oversPlayed>
+<extras>8</extras>
+<runRate>7.94</runRate>
+</inning>
+<inning number="2">
+<battingTeam>New Zealand</battingTeam>
+<runsScored>327</runsScored>
+<wicketsLost>10</wicketsLost>
+<oversPlayed>48.5</oversPlayed>
+<extras>29</extras>
+<runRate>6.70</runRate>
+</inning>
+</innings>
+<results>
+<winner>India</winner>
+<resultDetails>India won by 70 runs</resultDetails>
+</results>
+</CricketMatch>
+
+JSON CODE:-
+{
+  "CricketMatch": {
+    "matchDetails": {
+      "venue": "Wankhede Stadium",
+      "date": "15/11/2023",
+      "teams": {
+        "India": [
+          "Rohit Sharma",
+          "Shubman Gill",
+          "Virat Kohli",
+          "Shreyas Iyer",
+          "Kl Rahul",
+          "Suryakumar Yadav",
+          "Ravindra Jadeja",
+          "Jasprit Bumrah",
+          "Mohammed Shami",
+          "Kuldeep Yadav",
+          "Mohammed Siraj"
+        ],
+        "New Zealand": [
+          "Devon Conway",
+          "Rachin Ravindra",
+          "Kane Williamson (c)",
+          "Daryl Mitchell",
+          "Tom Latham (wk)",
+          "Glenn Phillips",
+          "Mark Chapman",
+          "Mitchell Santner",
+          "Lockie Ferguson",
+          "Trent Boult",
+          "Tim Southee"
+        ]
+      },
+      "toss": {
+        "winningTeam": "India",
+        "decision": "bat/field"
+      }
+    },
+    "innings": [
+      {
+        "number": 1,
+        "battingTeam": "India",
+        "runsScored": 397,
+        "wicketsLost": 4,
+        "oversPlayed": 50,
+        "extras": 8,
+        "runRate": 7.94
+      },
+      {
+        "number": 2,
+        "battingTeam": "New Zealand",
+        "runsScored": 327,
+        "wicketsLost": 10,
+        "oversPlayed": 48.5,
+        "extras": 29,
+        "runRate": 6.70
+      }
+    ],
+    "results": {
+      "winner": "India",
+      "resultDetails": "India won by 70 runs"
+    }
+  }
+}
